@@ -3,7 +3,7 @@ dotenv.config();
 import express from "express"
 
 
-dotenv.config({ path: './config.env' });
+
 
 import "./config/connection.js"
 import userRoutes from "./routes/userRoutes.js"
