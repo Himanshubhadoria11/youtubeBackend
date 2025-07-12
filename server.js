@@ -15,10 +15,15 @@ const app = express();
 const port = process.env.PORT || 5200;
 
 // middleware usage
+// app.use(cors({
+//   origin: 'http://localhost:5173',
+//   credentials: true
+// }))
 app.use(cors({
-  origin: 'http://localhost:5173',
-  credentials: true
-}))
+  origin: 'http://localhost:5173', // allow your frontend origin
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+}));
 app.use(express.json());
 app.use("/api/users", userRoutes)
 app.use("/api/channel", channelRoutes)
