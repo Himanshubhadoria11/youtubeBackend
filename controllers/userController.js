@@ -107,7 +107,7 @@ export const logIn = async (req, res) => {
             return res.status(403).json({ success: false, message: "invalid password" });
         }
 
-        const jwtToken = jwt.sign({ email, userId: result._id }, process.env.JWT_SECRET, { expiresIn: "10d" });
+        const jwtToken = jwt.sign({ email, userId: result._id }, process.env.JWT_SECRET, { expiresIn: "10ddd" });
 
         // Remove password from the response
         const { password: userPassword, ...userWithoutPassword } = result.toObject();
