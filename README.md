@@ -45,7 +45,9 @@ The backend for the YouTube Clone project using Node.js, Express.js, and MongoDB
 
 commands: 
   git clone https://github.com/Himanshubhadoria11/youtubeBackend.git
+
   cd youtubeBackend
+  
   npm install
 
 ### Environment Variables
@@ -63,7 +65,7 @@ Server runs on: [http://localhost:5200](http://localhost:5200)
 
 ## Project Structure
 
-YT_clone-Backend/
+youtubeBackend/
 ├── config/
 ├── controllers/
 ├── models/
