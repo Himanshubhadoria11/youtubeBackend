@@ -20,7 +20,7 @@ const port = process.env.PORT || 5200;
 //   credentials: true
 // }))
 app.use(cors({
-  origin: 'http://localhost:5173', // allow your frontend origin
+  origin: 'https://youtube-frontend-psi-liart.vercel.app/', // allow your frontend origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
