@@ -10,7 +10,7 @@ The backend for the YouTube Clone project using Node.js, Express.js, and MongoDB
 
 ## Live URLs
 
-# Frontend [youtubeFrontend]-	  https://youtube-frontend-psi-liart.vercel.app
+# Frontend [youtubeFrontend]-	  https://youtube-frontend-himanshu-bhadoria.vercel.app
 # Backend [youtubeBackend]-	  https://youtubebackend-c26a.onrender.com
 
 ## API Endpoints
