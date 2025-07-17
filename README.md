@@ -8,6 +8,11 @@ The backend for the YouTube Clone project using Node.js, Express.js, and MongoDB
 - MongoDB (Atlas)
 - JWT (JSON Web Tokens)
 
+## Live URLs
+
+# Frontend [youtubeFrontend]-	  https://youtube-frontend-psi-liart.vercel.app
+# Backend [youtubeBackend]-	  https://youtubebackend-c26a.onrender.com
+
 ## API Endpoints
 
 ### User Routes: `/api/users`
