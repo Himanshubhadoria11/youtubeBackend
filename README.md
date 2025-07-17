@@ -55,6 +55,8 @@ commands:
   
   npm install
 
+  npm start
+
 ### Environment Variables
 Create a `.env` file in the root:
 
